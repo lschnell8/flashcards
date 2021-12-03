@@ -54,7 +54,6 @@ describe('Round', function() {
     expect(round.currentCard).to.equal(deck.cards[1]);
 
     round.takeTurn();
-    // round.takeTurn();
 
     expect(round.currentCard).to.equal(deck.cards[2]);
   });
@@ -96,7 +95,9 @@ describe('Round', function() {
     round.takeTurn('array');
     round.takeTurn('mutator method');
 
-    expect(round.endRound()).to.equal(`** Round over! ** You answered 66% of the questions correctly!`);
+    let end = round.endRound();
+
+    expect(end).to.equal(`** Round over! ** You answered 66% of the questions correctly!`);
   });
 
 });
