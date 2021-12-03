@@ -1,4 +1,4 @@
-# Array Protoype Methods Flash Cards
+# Flash Cards
 
 ## About
 This application is a compilation of flashcards with multiple choice answers. Start the game by typing node index.js in the terminal, select your answer, press enter, and receive feedback on whether your answer is correct or incorrect. It's a fun way to study or excercise your trivia knowledge.  
